@@ -1,0 +1,28 @@
+// version 8
+
+// version 9
+// import { initializeApp } from "firebase/app";
+// import { getAuth } from "firebase/auth";
+// import { getFirestore } from "firebase/firestore";
+
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyDMbAXgqXwb3srQcXzsURWgi-8s2iItm9g",
+  authDomain: "linkdin-clone-16oct2022.firebaseapp.com",
+  projectId: "linkdin-clone-16oct2022",
+  storageBucket: "linkdin-clone-16oct2022.appspot.com",
+  messagingSenderId: "28548759062",
+  appId: "1:28548759062:web:f48b0a4ae4aa1fc389ff37",
+};
+
+// v8
+const db = firebaseApp.firestore();
+
+// Initialize Firebase v9
+// const firebaseApp = initializeApp(firebaseConfig);
+// const db = getFirestore(firebaseApp);
+// const auth = getAuth(firebaseApp);
+
+export { db, auth };
