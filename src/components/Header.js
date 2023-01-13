@@ -1,11 +1,10 @@
 import React from "react";
-import SearchIcon from "@material-ui/icons/Search";
-import HomeIcon from "@material-ui/icons/Home";
-import SupervisorAccountIcon from "@material-ui/icons/SupervisorAccount";
-import ChatIcon from "@material-ui/icons/Chat";
-import BusinessCenterIcon from "@material-ui/icons/BusinessCenter";
-import NotificationsIcon from "@material-ui/icons/Notifications";
-
+import SearchIcon from "@mui/icons-material/Search";
+import HomeIcon from "@mui/icons-material/Home";
+import SupervisorAccountIcon from "@mui/icons-material/SupervisorAccount";
+import ChatIcon from "@mui/icons-material/Chat";
+import BusinessCenterIcon from "@mui/icons-material/BusinessCenter";
+import NotificationsIcon from "@mui/icons-material/Notifications";
 import src from "./linkedin.png";
 import "./Header.css";
 import HeaderOptions from "./HeaderOptions";

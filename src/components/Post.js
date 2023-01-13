@@ -1,10 +1,10 @@
 import React from "react";
 import "./Post.css";
-import { Avatar } from "@material-ui/core";
-import ThumbUpOutlinedIcon from "@material-ui/icons/ThumbUpOutlined";
-import ChatOutlinedIcon from "@material-ui/icons/ChatOutlined";
-import ShareOutlinedIcon from "@material-ui/icons/ShareOutlined";
-import SendOutlinedIcon from "@material-ui/icons/SendOutlined";
+import { Avatar } from "@mui/material";
+import ThumbUpOutlinedIcon from "@mui/icons-material/ThumbUpOutlined";
+import ChatOutlinedIcon from "@mui/icons-material/ChatOutlined";
+import ShareOutlinedIcon from "@mui/icons-material/ShareOutlined";
+import SendOutlinedIcon from "@mui/icons-material/SendOutlined";
 import InputOption from "./InputOption";
 
 function Post({ name, description, message, photoUrl }) {

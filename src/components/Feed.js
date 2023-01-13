@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 import "./Feed.css";
-import CreateIcon from "@material-ui/icons/Create";
-import ImageIcon from "@material-ui/icons/Image";
-import CalendarViewDayIcon from "@material-ui/icons/CalendarViewDay";
-import EventNoteIcon from "@material-ui/icons/EventNote";
-import SubscriptionsIcon from "@material-ui/icons/Subscriptions";
+import CreateIcon from "@mui/icons-material/Create";
+import ImageIcon from "@mui/icons-material/Image";
+import CalendarViewDayIcon from "@mui/icons-material/CalendarViewDay";
+import EventNoteIcon from "@mui/icons-material/EventNote";
+import SubscriptionsIcon from "@mui/icons-material/Subscriptions";
 import InputOption from "./InputOption";
 import Post from "./Post";
 import { db } from "./firebase";

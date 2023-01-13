@@ -1,6 +1,6 @@
 import React from "react";
 import "./HeaderOptions.css";
-import { Avatar } from "@material-ui/core";
+import { Avatar } from "@mui/material";
 import { useSelector } from "react-redux";
 import { selectUser } from "../features/userSlice";
 
